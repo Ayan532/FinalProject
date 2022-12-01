@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+.img-text{
+ 
+    bottom: 8px;
+    right: 120px;
+    text-align: left;
+    font: normal normal 600 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.header{
+    margin-left: 100px;
+    text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.res_tab_container {
+    /* display: flex;
+    clear: both;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    background: white; */
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    margin-left: 100px;
+
+
+  }
+  
+  .tab {
+    float: left;
+  }
+  .tab label {
+     /* background: white;
+    padding: 2px;
+    border: 1px solid white;
+    margin-left: -1px;
+    margin-right: 5px; */
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1; 
+
+    padding: 2px;
+    border: 1px solid white;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    top: -29px;
+    margin-right: 15px;
+  }
+  .tab [type=radio] {
+    display: none;
+  }
+  .content {
+/* 
+   background: white; 
+
+    border-top: 1px solid gray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     gap: 20px;
+    opacity: 0; */
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    margin-top: 7px;
+    border-top: 3px solid gray;
+    opacity: 0;
+
+  }
+   [type=radio]:checked~label {
+ 
+    border-bottom: 1px solid white;
+    z-index: 2;
+    border-bottom: solid 5px red;
+  }
+  [type=radio]:checked~label~.content {
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .heading {
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+  }
+  .orderBtn{
+
+background: #CE0505 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+width: 223px;
+height: 50px;
+  }
+  
+  .about {
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+
+  }
+  
+  .head {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+
+  }
+  
+  .value {
+
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+
+  }
+  .value_red{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: red;
+opacity: 1;
+  }
+  .items_cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .items_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+
+  }
+  .add_btn{
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      opacity: 1;
+      width: 4rem;
+
+          font: normal normal medium 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #61B246;
+    opacity: 1;
+  }
+
+  .resturant_name{
+    text-align: left;
+  font: normal normal 600 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #192F60;
+  opacity: 1;
+    }
+    .menu_item_name{
+      font: normal normal medium 16px/25px Poppins;
+      letter-spacing: 0px;
+      color: #292C40;
+    }
+    .menu_item_price{
+      font: normal normal normal 16px/19px Rupee Foradian;
+      letter-spacing: 0px;
+      color: #292C40;
+      opacity: 1;
+    }
+    .menu_item_desc{
+       
+font: normal normal normal 10px/14px Rupee Foradian;
+letter-spacing: 0px;
+color: #696B78;
+opacity: 1;
+    }
+.add_num{
+  position: absolute;
+  top: 68%;
+  right: 6%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 4rem;
+   font: normal normal medium 15px/23px Poppins;
+  letter-spacing: 0px;
+  color: #61B246;
+  opacity: 1;
+  padding: 0px 5px 0px 2px;
+}
+.qty{
+  font: normal normal medium 15px/23px Poppins;
+letter-spacing: 0px;
+color: #61B246;
+opacity: 1;
+}
+.qty_cont{
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 50%;
+}
+.sub_btn{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.sub_total_cont{
+
+  /* background: #F5F8FF 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 6px 6px;
+  opacity: 1; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub_total{
+  text-align: left;
+font: normal normal bold 22px/33px Poppins;
+letter-spacing: 0px;
+color: #292C40;
+}
+.sub_total_price{
+  text-align: left;
+letter-spacing: 0px;
+color: #292C40;
+opacity: 1;
+}
+.sub_total_btn_cont{
+  background: #CE0505 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub_total_btn{
+  
+ all: unset;
+ cursor: pointer;
+ color: white;
+ padding: 6px;
+
+
+}
+.sub_total_btn_2{
+  
+  background: #CE0505 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-top: 20px;
+
+
+}
+.sub_total_btn{
+  
+ all: unset;
+ cursor: pointer;
+ color: white;
+ padding: 6px;
+ text-align: center;
+
+}
+.user_details_restaurant_name{
+  font: normal normal 600 24px/35px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.user_details_name{
+  font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+}
+  
